@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Containers>
+  <Date>2015-07-08</Date>
+  <Beta>True</Beta>
+  <Category>MediaServer:Video</Category>
+  <Name>hdhomerundvr</Name>
+  <Changes>
+[center][font size=4]hdhomerundvr Change Log[/font][/center]
+
+[font size=3]2015.07.01[/font]
+- Initial Release
+
+  </Changes>
+  <Overview>
+    The ultimate DVR experience. A simple and cost effective way to record and watch TV on media devices around your home. TV on your terms.
+  </Overview>
+  <Description>
+    The HDHomeRun DVR is the easyest way to record Live TV and watch it your way.  Requires a hdhomerun device and service.
+    [b][span style='color: #E80000;']Directions:[/span][/b][br]
+    [b]/HDHomeRun[/b] : this is where hdhomerundvr will store it's videodata.[br][br]
+  </Description>
+  <Registry>https://registry.hub.docker.com/u/yoshiofthewire/hdhomerundvr/</Registry>
+  <GitHub>https://github.com/yoshiofthewire/docker-hdhomerundvr</GitHub>
+  <Repository>yoshiofthewire/hdhomerundvr</Repository>
+  <Support>http://lime-technology.com/forum/index.php?topic=</Support>
+  <BindTime>true</BindTime>
+  <Privileged>true</Privileged>
+  <Networking>
+    <Mode>host</Mode>
+    <Publish/>
+  </Networking>
+  <Environment/>
+  <Data>
+    <Volume>
+      <HostDir>/mnt/user/HDHomeRun</HostDir>
+      <ContainerDir>/HDHomeRun</ContainerDir>
+      <Mode>rw</Mode>
+    </Volume>
+  </Data>
+  <Banner></Banner>
+  <Icon>http://i.ytimg.com/vi/jddrXkm0idc/hqdefault.jpg</Icon>
+</Containers>
