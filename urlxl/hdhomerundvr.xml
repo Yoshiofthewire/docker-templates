@@ -7,7 +7,7 @@
   <Changes>
 [center][font size=4]hdhomerundvr Change Log[/font][/center]
 
-[font size=3]2015.07.01[/font]
+[font size=3]2016.01.18[/font]
 - Initial Release
 
   </Changes>
@@ -32,8 +32,8 @@
   <Environment/>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/HDHomeRun</HostDir>
-      <ContainerDir>/HDHomeRun</ContainerDir>
+      <HostDir>/mnt/user/hdhomerun</HostDir>
+      <ContainerDir>/hdhomerun</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
   </Data>
