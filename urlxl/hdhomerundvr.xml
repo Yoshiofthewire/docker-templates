@@ -32,7 +32,7 @@
   <Environment/>
   <Data>
     <Volume>
-      <HostDir>/mnt/user/hdhomerun</HostDir>
+      <HostDir>/mnt/user0/hdhomerun</HostDir>
       <ContainerDir>/hdhomerun</ContainerDir>
       <Mode>rw</Mode>
     </Volume>
