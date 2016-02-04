@@ -1,15 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2015-07-08</Date>
+  <Date>2016-02-04</Date>
   <Beta>True</Beta>
   <Category>MediaServer:Video</Category>
   <Name>hdhomerundvr</Name>
+  <Project>https://www.silicondust.com/forum/viewtopic.php?f=119&t=20613</Project>
   <Changes>
 [center][font size=4]hdhomerundvr Change Log[/font][/center]
 
+[font size=3]2016.02.04[/font]
+- Cleanup container, allow update without container changes
+
 [font size=3]2016.01.18[/font]
 - Initial Release
-
   </Changes>
   <Overview>
     The ultimate DVR experience. A simple and cost effective way to record and watch TV on media devices around your home. TV on your terms.
@@ -22,7 +25,7 @@
   <Registry>https://registry.hub.docker.com/u/yoshiofthewire/hdhomerundvr/</Registry>
   <GitHub>https://github.com/yoshiofthewire/docker-hdhomerundvr</GitHub>
   <Repository>yoshiofthewire/hdhomerundvr</Repository>
-  <Support>http://lime-technology.com/forum/index.php?topic=</Support>
+  <Support>https://lime-technology.com/forum/index.php?topic=45719.0</Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
   <Networking>
@@ -37,6 +40,7 @@
       <Mode>rw</Mode>
     </Volume>
   </Data>
+  <WebUI>http://my.hdhomerun.com/</WebUI>
   <Banner></Banner>
   <Icon>http://i.ytimg.com/vi/jddrXkm0idc/hqdefault.jpg</Icon>
 </Containers>
