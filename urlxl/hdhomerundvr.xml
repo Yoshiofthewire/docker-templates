@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2016-02-04</Date>
+  <Date>2016-03-12</Date>
   <Beta>True</Beta>
   <Category>MediaServer:Video</Category>
   <Name>hdhomerundvr</Name>
   <Project>https://goo.gl/SMd5ne</Project>
   <Changes>
 [center][font size=4]hdhomerundvr Change Log[/font][/center]
+
+[font size=3]2016.03.12[/font]
+- Added Build to Docker
+- Changed to 20160310atest1
 
 [font size=3]2016.02.04[/font]
 - Cleanup container, allow update without container changes
