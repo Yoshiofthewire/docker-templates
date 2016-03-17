@@ -11,15 +11,6 @@
 [font size=3]2016.03.17[/font]
 - Updated to 20160316atest2
 
-[font size=3]2016.03.12[/font]
-- Added Build to Docker
-- Changed to 20160310atest1
-
-[font size=3]2016.02.04[/font]
-- Cleanup container, allow update without container changes
-
-[font size=3]2016.01.18[/font]
-- Initial Release
   </Changes>
   <Overview>
     The ultimate DVR experience. A simple and cost effective way to record and watch TV on media devices around your home. TV on your terms.
