@@ -1,20 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Containers>
-  <Date>2016-03-12</Date>
+  <Date>2016-10-14</Date>
   <Beta>True</Beta>
   <Category>MediaServer:Video</Category>
-  <Name>hdhomerundvr</Name>
+  <Name>Dockerbridge</Name>
   <Project>https://goo.gl/SMd5ne</Project>
   <Changes>
-[center][font size=4]hdhomerundvr Change Log[/font][/center]
+[center][font size=4]Dockerbridge Change Log[/font][/center]
 
-<<<<<<< HEAD
-[font size=3]2017.05.14[/font]
-- Updated to  20170512beta1 (File extracted using Linux on Windows)
-=======
-[font size=3]2016.12.11[/font]
-- Updated to  20161206beta1
->>>>>>> origin/master
+[font size=3]2016-10-14[/font]
+- Inital Release
 
   </Changes>
   <Overview>
@@ -26,8 +21,8 @@
     [b]/HDHomeRun[/b] : this is where hdhomerundvr will store it's videodata.[br][br]
   </Description>
   <Registry>https://registry.hub.docker.com/u/yoshiofthewire/hdhomerundvr/</Registry>
-  <GitHub>https://github.com/yoshiofthewire/docker-hdhomerundvr</GitHub>
-  <Repository>yoshiofthewire/hdhomerundvr</Repository>
+  <GitHub>https://github.com/Yoshiofthewire/discordircbridge</GitHub>
+  <Repository>yoshiofthewire/dockerbridge</Repository>
   <Support>https://lime-technology.com/forum/index.php?topic=45719.0</Support>
   <BindTime>true</BindTime>
   <Privileged>true</Privileged>
